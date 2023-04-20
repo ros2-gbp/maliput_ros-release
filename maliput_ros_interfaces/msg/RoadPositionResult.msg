@@ -1,3 +1,0 @@
-RoadPosition road_position
-InertialPosition nearest_position
-float64 distance
