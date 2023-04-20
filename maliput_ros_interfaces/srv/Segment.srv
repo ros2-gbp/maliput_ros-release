@@ -1,4 +1,0 @@
-# Equivalent to make maliput::api::RoadGeometry::ById()::GetSegment(id) and obtain the Segment information.
-SegmentId id
----
-Segment segment

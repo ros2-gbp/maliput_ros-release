@@ -1,4 +1,0 @@
-# Equivalent to make maliput::api::RoadGeometry::junction(junction_index).
-int32 junction_index
----
-Junction junction
