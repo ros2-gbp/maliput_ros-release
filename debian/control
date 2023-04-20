@@ -1,0 +1,12 @@
+Source: ros-foxy-maliput-ros-translation
+Section: misc
+Priority: optional
+Maintainer: Agustin Alba Chicar <ag.albachicar@ekumenlabs.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ament-cmake-clang-format <!nocheck>, ros-foxy-ament-cmake-gmock <!nocheck>, ros-foxy-ament-cmake-gtest <!nocheck>, ros-foxy-ament-lint-auto <!nocheck>, ros-foxy-ament-lint-common <!nocheck>, ros-foxy-builtin-interfaces, ros-foxy-geometry-msgs, ros-foxy-maliput, ros-foxy-maliput <!nocheck>, ros-foxy-maliput-ros-interfaces, ros-foxy-maliput-ros-interfaces <!nocheck>, ros-foxy-rosidl-default-generators, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-maliput-ros-translation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-builtin-interfaces, ros-foxy-geometry-msgs, ros-foxy-rosidl-default-runtime, ros-foxy-ros-workspace
+Description: Translates between maliput types and maliput ROS types in C++
