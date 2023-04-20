@@ -1,0 +1,12 @@
+Source: ros-foxy-maliput-ros
+Section: misc
+Priority: optional
+Maintainer: Agustin Alba Chicar <ag.albachicar@ekumenlabs.com>
+Build-Depends: debhelper (>= 9.0.0), libyaml-cpp-dev, ros-foxy-ament-cmake, ros-foxy-ament-cmake-clang-format <!nocheck>, ros-foxy-ament-cmake-gmock <!nocheck>, ros-foxy-ament-cmake-gtest <!nocheck>, ros-foxy-ament-lint-auto <!nocheck>, ros-foxy-ament-lint-common <!nocheck>, ros-foxy-lifecycle-msgs, ros-foxy-maliput, ros-foxy-maliput-ros-interfaces, ros-foxy-maliput-ros-translation, ros-foxy-rclcpp, ros-foxy-rclcpp-lifecycle, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-maliput-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libyaml-cpp-dev, ros-foxy-launch-ros, ros-foxy-lifecycle-msgs, ros-foxy-maliput, ros-foxy-maliput-ros-interfaces, ros-foxy-maliput-ros-translation, ros-foxy-rclcpp, ros-foxy-rclcpp-lifecycle, ros-foxy-ros2launch, ros-foxy-ros-workspace
+Description: ROS2 integration package which offers the maliput API through the ROS2 service interface.
